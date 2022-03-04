@@ -14,3 +14,4 @@ When this plugin is activated, a user visiting from a Russian IP address will se
 ## Options
 You can allow Russian visitors to dismiss the overlway or you can set the overlay to persist; inhibiting easy access to your website. To preserve SEO, your site still exists under the overlay. Other options allow you to omit the Red Cross banner and test the functionality by adding your IP address to the block list. **This plugin does not block access to your admin pages or login**. You can configure options in the WordPress Admin Menu for Settings -> Stop War In Ukraine
 
+The list of IPs that are "blocked" are in the file titled [russian_ip_addresses.php](https://github.com/goddessmokosh/stop-war-in-ukraine/blob/main/russian_ip_addresses.php). The list is compiled to include both Russian and Belarus IP addresses in CIDR format from https://www.countryipblocks.net/acl.php
